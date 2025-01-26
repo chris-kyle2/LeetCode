@@ -12,17 +12,14 @@ int main()
    cout << maximum << '\n';
    cout << minimum << '\n';
 
-   for (int i = 0; i < n; i++)
-   {
-      int current_ele = arr[i];
-      if (current_ele > maximum)
-      {
-         maximum = current_ele;
-      }
-      if (current_ele < minimum)
-      {
-         minimum = current_ele;
-      }
+   for(int i=0;i<n;i++){
+    int current_ele = arr[i];
+    if(current_ele > maximum){
+        maximum =current_ele;
+    }
+    if(current_ele<minimum){
+        minimum = current_ele;
+    }
    }
    cout << "Maximum: " << maximum << '\n';
    cout << "Minimum: " << minimum << '\n';
