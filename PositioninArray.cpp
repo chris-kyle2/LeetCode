@@ -1,3 +1,4 @@
+//Find the position of the elements of the array that are less than or equal to 10 and print them.
 #include<bits/stdc++.h>
 using namespace std;
 
